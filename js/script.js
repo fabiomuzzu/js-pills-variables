@@ -23,3 +23,7 @@ console.log(name);
 // Esercizio 4
 let greet = "Ciao, Mondo!";
 console.log(greet);
+
+// Esercizio 5
+greet = "Come stai, Mondo?";
+console.log(greet);
