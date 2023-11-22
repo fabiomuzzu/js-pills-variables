@@ -24,6 +24,51 @@ console.log(name);
 let greet = "Ciao, Mondo!";
 console.log(greet);
 
-// Esercizio 5
-greet = "Come stai, Mondo?";
+// Esercizio 4/b
+// greet = "Come stai, Mondo?";
+// console.log(greet);
+
+// Esercizio 4/c
+greet = greet + " " + "Come stai?"
 console.log(greet);
+
+
+// Esercizio 5
+let num =  9;
+let num2 = 10;
+
+// let comparison;
+
+// if (num > num2){
+//     comparison = num
+// }
+// else{
+//     comparison = num2
+// }
+
+// console.log(comparison);
+
+// let pippo = "ok";
+// let pluto = "non";
+
+// let comparison;
+
+// if (pippo == pluto){
+//     comparison = "Le stringe sono uguali";
+// }
+// else{
+//     comparison = "Le stringhe sono diverse";
+// }
+// console.log(comparison);
+
+let pippo = 1;
+let comparison;
+
+if (pippo == '1'){
+    comparison = true;
+}
+else{
+    comparison = false;
+}
+console.log(comparison);
+
