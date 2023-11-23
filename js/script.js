@@ -81,3 +81,9 @@ for (let i=1; i<=42; i++){
 for (let i=42; i>=1; i--){
     console.log(i)
 }
+
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+console.log(numbers);
+
+const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
+console.log(fruits);
