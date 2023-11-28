@@ -74,16 +74,75 @@
 
 
 // Esempi di cicli for:
-for (let i=1; i<=42; i++){
-    console.log(i)
+// for (let i=1; i<=42; i++){
+//     console.log(i)
+// }
+
+// for (let i=42; i>=1; i--){
+//     console.log(i)
+// }
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(numbers);
+
+// const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
+// console.log(fruits.length);
+
+// const numOfElements = parseInt(prompt('Scrivi un numero intero'));
+// console.log(typeof numOfElements);
+// console.log(numOfElements);
+
+// let numbers = [];
+// let somma = 0;
+
+// for(let i = 1; i <= numOfElements; i++){
+//     numbers.push(i);
+// }
+// console.log(numbers);
+// console.log(numbers.length);
+
+// for(let i = 0; i < numOfElements; i++){
+//     somma = somma+numbers[i];
+// }
+// console.log(somma)
+
+// take input from the user
+// const number = parseInt(prompt('Enter a positive number: '));
+// let n1 = 0, n2 = 1, nextTerm;
+
+// console.log('Fibonacci Series:');
+// console.log(n1); // print 0
+// console.log(n2); // print 1
+
+// nextTerm = n1 + n2;
+
+// while (nextTerm <= number) {
+
+//     // print the next term
+//     console.log(nextTerm);
+
+//     n1 = n2;
+//     n2 = nextTerm;
+//     nextTerm = n1 + n2;
+// }
+
+function printHelloWorld(){
+    alert('Hello World');
 }
 
-for (let i=42; i>=1; i--){
-    console.log(i)
+printHelloWorld();
+
+function sommaNumeri(num1, num2){
+    let risultato = num1+num2;
+
+    return risultato;
 }
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-console.log(numbers);
+let a = 2;
+let b = 3;
 
-const fruits = ['mela', 'banana', 'pesca', 'pera', 'albicocca', 'mango', 'kiwi', 'papaya'];
-console.log(fruits.length);
+let somma = sommaNumeri(a,b);
+
+console.log(somma);
+
+console.log(risultato);
