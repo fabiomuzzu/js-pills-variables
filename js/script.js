@@ -126,23 +126,31 @@
 //     nextTerm = n1 + n2;
 // }
 
-function printHelloWorld(){
-    alert('Hello World');
+// function printHelloWorld(){
+//     alert('Hello World');
+// }
+
+// printHelloWorld();
+
+// function sommaNumeri(num1, num2){
+//     let risultato = num1+num2;
+
+//     return risultato;
+// }
+
+// let a = 2;
+// let b = 3;
+
+// let somma = sommaNumeri(a,b);
+
+// console.log(somma);
+
+// console.log(risultato);
+
+function getOneStringFromTwo(string1, string2){
+    return string1 + ' ' + string2;
 }
 
-printHelloWorld();
+console.log(getOneStringFromTwo('Cane','Bau'));
 
-function sommaNumeri(num1, num2){
-    let risultato = num1+num2;
 
-    return risultato;
-}
-
-let a = 2;
-let b = 3;
-
-let somma = sommaNumeri(a,b);
-
-console.log(somma);
-
-console.log(risultato);
