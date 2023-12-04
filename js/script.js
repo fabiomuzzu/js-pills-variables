@@ -161,3 +161,10 @@
 // setInterval(function(){
 //     console.log(i++);
 // }, 1000);
+
+let persona = {
+    "nome": "Mario",
+    "cognome": "Musconi",
+}
+
+console.log(persona["nome"]);
