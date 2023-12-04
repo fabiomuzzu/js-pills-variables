@@ -147,10 +147,17 @@
 
 // console.log(risultato);
 
-function getOneStringFromTwo(string1, string2){
-    return string1 + ' ' + string2;
-}
+// function getOneStringFromTwo(string1, string2){
+//     return string1 + ' ' + string2;
+// }
 
-console.log(getOneStringFromTwo('Cane','Bau'));
+// console.log(getOneStringFromTwo('Cane','Bau'));
 
+// setTimeout(function(){
+//     alert('Ciao a tutti');
+// }, 3000)
 
+// let i = 0;
+// setInterval(function(){
+//     console.log(i++);
+// }, 1000);
